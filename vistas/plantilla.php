@@ -11,12 +11,12 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Inventory System</title>
+    <title>Congelatos System</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-    <link rel="icon" href="vistas/img/plantilla/icono-negro.png">
+    <link rel="icon" href="vistas/img/plantilla/logo.png">
 
     <!--=====================================
    PLUGINS DE CSS
@@ -122,9 +122,9 @@ if (isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok") {
             $_GET["ruta"] == "categorias" ||
             $_GET["ruta"] == "productos" ||
             $_GET["ruta"] == "clientes" ||
+            $_GET["ruta"] == "proveedor" ||
             $_GET["ruta"] == "ventas" ||
             $_GET["ruta"] == "compras" ||
-            $_GET["ruta"] == "ajustes" ||
             $_GET["ruta"] == "cotizaciones" ||
             $_GET["ruta"] == "crear-venta" ||
             $_GET["ruta"] == "editar-venta" ||

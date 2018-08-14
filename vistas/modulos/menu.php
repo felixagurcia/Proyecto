@@ -58,6 +58,16 @@
 				</a>
 
 			</li>
+            <li>
+
+                <a href="proveedor">
+
+                    <i class="fa fa-users"></i>
+                    <span>Proveedor</span>
+
+                </a>
+
+            </li>
             <li class="treeview">
 
                 <a href="#">
@@ -111,60 +121,6 @@
 
                 </ul>
 
-
-            </li>
-            <li class="treeview">
-
-                <a href="#">
-
-                    <i class="fa fa-list-ul"></i>
-
-                    <span>Ajustes</span>
-
-                    <span class="pull-right-container">
-
-						<i class="fa fa-angle-left pull-right"></i>
-
-					</span>
-
-                </a>
-
-                <ul class="treeview-menu">
-
-                    <li>
-
-                        <a href="ventas">
-
-                            <i class="fa fa-circle-o"></i>
-                            <span>Administrar ajustes</span>
-
-                        </a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="crear-ajuste">
-
-                            <i class="fa fa-circle-o"></i>
-                            <span>Crear ajuste</span>
-
-                        </a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="reportes">
-
-                            <i class="fa fa-circle-o"></i>
-                            <span>Reporte de ajuste</span>
-
-                        </a>
-
-                    </li>
-
-                </ul>
 
 
             </li>

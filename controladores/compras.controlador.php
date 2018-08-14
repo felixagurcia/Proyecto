@@ -1,7 +1,6 @@
 <?php
 
-class ControladorCompras
-{
+class ControladorCompras{
 
     /*===========================================
     MOSTRAR Compras
@@ -19,7 +18,7 @@ class ControladorCompras
     }
 
     /*=============================================
-    CREAR VENTA
+    CREAR COMPRA
     =============================================*/
 
     static public function ctrCrearCompra()
@@ -28,7 +27,7 @@ class ControladorCompras
         if (isset($_POST["nuevaCompra"])) {
 
             /*=============================================
-            ACTUALIZAR LAS COMPRAS DEL CLIENTE Y REDUCIR EL STOCK Y AUMENTAR LAS VENTAS DE LOS PRODUCTOS
+            ACTUALIZAR LAS COMPRAS DEL CLIENTE Y AUMENTAR EL STOCK Y AUMENTAR LAS COMPRAS DE LOS PRODUCTOS
             =============================================*/
 
             $listaProductos = json_decode($_POST["listaProductos"], true);
